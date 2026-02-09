@@ -1,14 +1,14 @@
 # TASK CHECKLIST
 
 ## DONE
+- Project structure setup
+- Database connection (MySQL)
+- React web application
+- Spring Boot backend
+- authentication
 
 ## IN-PROGRESS
-- Project structure setup
 
 ## TODO
-- Spring Boot backend
-- React web application
-- MySQL database integration
-- JWT authentication
 - Mobile application
 - Documentation update
