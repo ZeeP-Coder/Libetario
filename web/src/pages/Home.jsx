@@ -50,16 +50,6 @@ function Home() {
             </button>
           </div>
         </div>
-
-        <div className="home-features">
-          <h3>Features</h3>
-          <ul>
-            <li><span className="feature-bullet">•</span> Secure Authentication</li>
-            <li><span className="feature-bullet">•</span> User Profile Management</li>
-            <li><span className="feature-bullet">•</span> Dashboard Analytics</li>
-            <li><span className="feature-bullet">•</span> Fast & Reliable</li>
-          </ul>
-        </div>
       </div>
 
       <footer className="home-footer">

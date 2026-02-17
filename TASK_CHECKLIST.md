@@ -9,8 +9,9 @@
 - Authentication
 
 ## IN-PROGRESS
-
-
-## TODO
 - Mobile application
 - Documentation update
+
+## TODO
+
+

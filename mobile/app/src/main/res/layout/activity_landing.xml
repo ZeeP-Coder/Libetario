@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- Logo/Icon -->
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_profile"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="App Logo"/>
+
+        <!-- Welcome Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp"
+            android:layout_marginBottom="32dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="32dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvWelcome"
+                    android:text="Welcome to Libetario!"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:text="Your digital library companion"
+                    android:textSize="16sp"
+                    android:textColor="#666666"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_background"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:text="Create Account"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_outline_white"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="48dp"/>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="© 2026 Libetario. All rights reserved."
+            android:textColor="#B3FFFFFF"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
